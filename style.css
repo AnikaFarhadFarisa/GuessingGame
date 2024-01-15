@@ -1,0 +1,88 @@
+body {
+    background: rgb(0, 0, 0);
+}
+
+.topPart{
+    font-size: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+p{
+    font-size: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options button{
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+}
+
+.midPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    font-size: 100px;
+}
+
+.tryagain{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tryagain button{
+    
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+}
+
+.buttons1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.but{
+    background: black;
+    border: none;
+   
+}
+
+img{
+    background-color: black;
+    border: none;
+}
+
+img:hover{
+    background: beige;
+}
+
+

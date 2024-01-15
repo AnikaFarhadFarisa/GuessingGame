@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS GAME</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="topPart">
+      <p id="intro">Welcome to the Guessing Game!</p>
+    </section>
+    <section class="options">
+      <button onclick="pickObj()" id="play">Pick An Object</button>
+    </section>
+    <p id="obj"></p>
+
+    <section class="tryagain">
+      <button onclick="reDirect()" id="tryagain">Try Again</button>
+    </section>
+
+    <section class="midPart">
+      <p id="result"></p>
+    </section>
+
+    <section class="but">
+      <div class="buttons1">
+        <button
+          onclick="changeColor(`sub1`)"
+          type="submit"
+          disabled
+          id="sub1"
+          name="butt"
+        >
+          <img
+            id="img1"
+            src="images/01641de964019ee98044c2735d2cdc69.png"
+            height="200px"
+            alt="fish"
+          />
+        </button>
+        <button
+          onclick="changeColor(`sub2`)"
+          type="submit"
+          disabled
+          id="sub2"
+          name="butt"
+        >
+          <img
+            id="img2"
+            src="images/1783591.png"
+            height="200px"
+            alt="rectangle"
+          />
+        </button>
+        <button
+          onclick="changeColor( `sub3`)"
+          type="submit"
+          disabled
+          id="sub3"
+          name="butt"
+        >
+          <img id="img3" src="images/25424.png" height="200px" alt="heart" />
+        </button>
+      </div>
+      <div class="buttons2">
+        <button
+          onclick="changeColor(`sub4`)"
+          type="submit"
+          disabled
+          id="sub4"
+          name="butt"
+        >
+          <img id="img4" src="images/33807.png" height="200px" alt="pentagon" />
+        </button>
+        <button
+          onclick="changeColor(`sub5`)"
+          type="submit"
+          disabled
+          id="sub5"
+          name="butt"
+        >
+          <img
+            id="img5"
+            src="images/452-4523783_diamond-clipart-outline-outline-diamond-shape-hd-png.png"
+            height="200px"
+            alt="diamond"
+          />
+        </button>
+        <button
+          onclick="changeColor(`sub6`)"
+          type="submit"
+          disabled
+          id="sub6"
+          name="butt"
+        >
+          <img
+            id="img6"
+            src="images/664006_shape_512x512.png"
+            height="200px"
+            alt="puzzle_piece"
+          />
+        </button>
+      </div>
+      <div class="buttons3">
+        <button
+          onclick="changeColor(`sub7`)"
+          type="submit"
+          disabled
+          id="sub7"
+          name="butt"
+        >
+          <img id="img7" src="images/692231.png" height="200px" alt="mango" />
+        </button>
+        <button
+          onclick="changeColor(`sub8`)"
+          type="submit"
+          disabled
+          id="sub8"
+          name="butt"
+        >
+          <img
+            id="img8"
+            src="images/ef41c0be0be2a857021ad670fd55df9a.png"
+            height="200px"
+            alt="butterfly"
+          />
+        </button>
+        <button
+          onclick="changeColor(`sub9`)"
+          type="submit"
+          disabled
+          id="sub9"
+          name="butt"
+        >
+          <img
+            id="img9"
+            src="images/v793-ning-31.png"
+            height="200px"
+            alt="star"
+          />
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
