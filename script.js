@@ -90,5 +90,5 @@ function changeColor(i_d){
 }
 
 function reDirect() {
-    window.location.reload();
+    window.location.href = "https://anikafarhadfarisa.github.io/GuessingGame/";
   }
