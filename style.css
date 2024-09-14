@@ -2,15 +2,15 @@ body {
     background: rgb(0, 0, 0);
 }
 
-.topPart{
-    font-size: 50px;
+.topPart #intro{
+    font-size: 30px;
     display:flex;
     align-items: center;
     justify-content: center;
     color: aliceblue;
 }
 p{
-    font-size: 50px;
+    font-size: 35px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -23,21 +23,20 @@ p{
 }
 
 .options button{
-    height: 100px;
-    width: 250px;
-    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
 }
 
-.midPart{
+.midPart #result{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: wheat;
-    font-size: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 .tryagain{
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,9 +44,9 @@ p{
 
 .tryagain button{
     
-    height: 100px;
-    width: 250px;
-    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
 }
 
 .buttons1{
