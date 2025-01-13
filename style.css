@@ -2,15 +2,25 @@ body {
     background: rgb(0, 0, 0);
 }
 
-.topPart #intro{
-    font-size: 30px;
-    display:flex;
-    align-items: center;
+.outer_top{
+    display: flex;
+    /* background-color: beige; */
     justify-content: center;
-    color: aliceblue;
 }
-p{
-    font-size: 35px;
+
+/* .topPart{
+    background-color: aqua;
+} */
+
+.topPart p{
+    font-size: 1.8em;
+    color: aliceblue;
+    /* background-color: red; */
+    text-align: center;
+}
+
+#obj{
+    font-size: 1.8em;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -23,9 +33,9 @@ p{
 }
 
 .options button{
-    height: 50px;
-    width: 200px;
-    font-size: 25px;
+    height: 1.8em;
+    width: 9.37em;
+    font-size: 1.2em;
 }
 
 .midPart #result{
@@ -33,7 +43,7 @@ p{
     align-items: center;
     justify-content: center;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 1.5em;
 }
 
 .tryagain{
@@ -44,9 +54,9 @@ p{
 
 .tryagain button{
     
-    height: 50px;
-    width: 200px;
-    font-size: 25px;
+    height: 1.8em;
+    width: 9.37em;
+    font-size: 1.2em;
 }
 
 .buttons1{
@@ -72,7 +82,7 @@ p{
 .but{
     background: black;
     border: none;
-   
+
 }
 
 img{
